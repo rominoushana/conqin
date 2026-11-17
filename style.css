@@ -1,0 +1,15 @@
+:root { --night:#0B1533; --lapis:#1E3A8A; --deep:#14275E; --gold:#E3B341; --goldlight:#F6D57A; --ivory:#FBF5E8; }
+* { box-sizing: border-box; }
+body { margin:0; background: radial-gradient(circle at 50% 0%, var(--lapis), var(--deep) 45%, var(--night)); background-attachment: fixed;
+  color: var(--ivory); font: 17px/1.6 -apple-system, "Segoe UI", Roboto, "Nunito", sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 40px 20px 60px; }
+h1 { font-size: 40px; line-height: 1.1; margin: 0 0 6px; color: var(--goldlight); }
+h2 { font-size: 21px; margin: 32px 0 8px; color: var(--goldlight); }
+.sub { opacity: .75; margin: 0 0 28px; }
+.card { background: rgba(14,29,74,.72); border: 1px solid rgba(227,179,65,.35); border-radius: 16px; padding: 18px 20px; margin: 16px 0; }
+a { color: var(--goldlight); }
+ul, ol { padding-left: 22px; } li { margin: 4px 0; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid rgba(251,245,232,.15); vertical-align: top; }
+th { color: var(--goldlight); }
+footer { margin-top: 40px; opacity: .6; font-size: 14px; }
